@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: linear-gradient(135deg, #cce5cc, #b2d8b2, #99cc99);
+  color: #333;
+}
+
+.background-overlay {
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+#nomeUsuario {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#saudacao {
+  font-size: 1.2em;
+  color: #388e3c;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.imagem-central {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imagem-central img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 100, 0, 0.4);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.zoom-img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.nomes-alunos {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nomes-alunos li {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #2e7d32;
+}
